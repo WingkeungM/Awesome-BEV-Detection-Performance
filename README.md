@@ -15,13 +15,13 @@ Collect the Performance of 3D Object Detection Methods from Multi-View Camera Im
 
 ### ResNet50 + temporal
 | Method | backbone | resolution | FCOS3D Pretrain | temporal | CBGS | mAP | NDS | ATE | ASE | AOE | AVE | AAE | 
-| :----- | :-----:  |  :-----:   |    :---:        |   :---:  | :--: |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| :------- | :-----:  |  :-----:   |    :---:        |   :---:  | :--: |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | [BEVDepth](https://arxiv.org/pdf/2206.10092v1.pdf)   | ResNet50 | 256x704  | - | Y | - | 0.351 | 0.475 | 0.639 | 0.267 | 0.479 | 0.428 | 0.198 |
 | [PolarDETR-T](https://arxiv.org/pdf/2206.10965.pdf)  | ResNet50 | 1600x900 | - | Y | - | 0.354 | 0.458 | 0.748 | 0.277 | 0.432 | 0.539 | 0.197 |
 
 ### ResNet101
 | Method | backbone | resolution | FCOS3D Pretrain | temporal | CBGS | mAP | NDS | ATE | ASE | AOE | AVE | AAE | 
-| :----- | :-----:  |  :-----:   |    :---:        |   :---:  | :--: |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| :------- | :-----:  |  :-----:   |    :---:        |   :---:  | :--: |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | [FCOS3D](https://arxiv.org/pdf/2104.10956.pdf)  | ResNet101 | 1600x900 | Y | N | N | 0.343 | 0.415 | 0.725 | 0.263 | 0.422 | 1.292 | 0.153 |
 | [PGD](https://arxiv.org/pdf/2107.14160.pdf)     | ResNet101 | 1600x900 | N | N | N | 0.369 | 0.428 | 0.683 | 0.260 | 0.439 | 1.268 | 0.185 |
 | [BEVDet](https://arxiv.org/pdf/2112.11790.pdf)  | ResNet101 | 704x256  | N | N | - | 0.302 | 0.381 | 0.722 | 0.269 | 0.543 | 0.900 | 0.269 |
@@ -52,7 +52,7 @@ Collect the Performance of 3D Object Detection Methods from Multi-View Camera Im
 
 ### Other Backbone
 | Method | Venue | backbone | temporal | CBGS | mAP | NDS | ATE | ASE | AOE | AVE | AAE | 
-| :----- |:-----:| :-----:  |  :-----: |:----:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| :------- |:-----:| :-----:  |  :-----: |:----:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | [BEVDet](https://arxiv.org/pdf/2112.11790.pdf)     | Swin-T | 704x256  | N | - | 0.312 | 0.392 | 0.691 | 0.272 | 0.523 | 0.909 | 0.247 |
 | [BEVDet](https://arxiv.org/pdf/2112.11790.pdf)     | Swin-B | 1600x640 | N | - | 0.393 | 0.472 | 0.608 | 0.259 | 0.366 | 0.822 | 0.191 |
 | [PETR](https://arxiv.org/pdf/2203.05625.pdf)       | Swin-T | 512x1408 | N | - | 0.361 | 0.431 | 0.732 | 0.273 | 0.497 | 0.808 | 0.185 |
@@ -63,7 +63,7 @@ Collect the Performance of 3D Object Detection Methods from Multi-View Camera Im
 
 ### Other Backbone + temporal
 | Method | Venue | backbone | temporal | CBGS | mAP | NDS | ATE | ASE | AOE | AVE | AAE | 
-| :----- |:-----:| :-----:  |  :-----: |:----:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| :------- |:-----:| :-----:  |  :-----: |:----:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | [BEVDet4D](https://arxiv.org/abs/2203.17054)   | Swin-T | 704x256  | Y | - | 0.338 | 0.476 | 0.672 | 0.274 | 0.460 | 0.337 | 0.185 |
 | [BEVDet4D](https://arxiv.org/abs/2203.17054)   | Swin-B | 1600x640 | Y | - | 0.421 | 0.545 | 0.579 | 0.258 | 0.329 | 0.301 | 0.191 |
 
@@ -73,7 +73,7 @@ Collect the Performance of 3D Object Detection Methods from Multi-View Camera Im
 ## nuScenes Test Set
 ### ResNet101 
 | Method | backbone | temporal | test time aug | mAP | NDS | ATE | ASE | AOE | AVE | AAE | 
-| :----- | :-----:  |  :----:  |     :-----:   |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| :------- | :-----:  |  :----:  |     :-----:   |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | [FCOS3D](https://arxiv.org/pdf/2104.10956.pdf)      | ResNet101 | N | Y | 0.358 | 0.428 | 0.690 | 0.249 | 0.452 | 1.434 | 0.124 |
 | [PGD](https://arxiv.org/pdf/2107.14160.pdf)         | ResNet101 | N | Y | 0.386 | 0.448 | 0.626 | 0.245 | 0.451 | 1.509 | 0.127 |
 | [PETR](https://arxiv.org/pdf/2203.05625.pdf)        | ResNet101 | N | N | 0.391 | 0.455 | 0.647 | 0.251 | 0.433 | 0.933 | 0.143 |
@@ -86,7 +86,7 @@ Collect the Performance of 3D Object Detection Methods from Multi-View Camera Im
 
 ### V2-99
 | Method | backbone | temporal | test time aug | mAP | NDS | ATE | ASE | AOE | AVE | AAE | 
-| :----- | :-----:  |  :----:  |     :-----:   |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| :------- | :-----:  |  :----:  |     :-----:   |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | [DETR3D](https://proceedings.mlr.press/v164/wang22b.html)      | V2-99     | N | N | 0.412 | 0.479 | 0.641 | 0.255 | 0.394 | 0.845 | 0.133 |
 | [BEVDet](https://arxiv.org/pdf/2112.11790.pdf)      | V2-99     | N | - | 0.424 | 0.488 | 0.524 | 0.242 | 0.373 | 0.950 | 0.148 |
 | [PolarDETR](https://arxiv.org/abs/2206.10965)   | V2-99     | N | - | 0.431 | 0.493 | 0.588 | 0.253 | 0.408 | 0.845 | 0.129 |
@@ -98,7 +98,7 @@ Collect the Performance of 3D Object Detection Methods from Multi-View Camera Im
 
 ### Other Backbone
 | Method | backbone | temporal | test time aug | mAP | NDS | ATE | ASE | AOE | AVE | AAE | 
-| :----- | :-----:  |  :----:  |     :-----:   |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| :------- | :-----:  |  :----:  |     :-----:   |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | [BEVDet](https://arxiv.org/pdf/2112.11790.pdf)      | Swin-S    | N | N | 0.398 | 0.463 | 0.556 | 0.239 | 0.414 | 1.010 | 0.153 |
 | [PETR](https://arxiv.org/pdf/2203.05625.pdf)        | Swin-T    | N | N | 0.411 | 0.450 | 0.664 | 0.256 | 0.522 | 0.971 | 0.137 |
 | [PETR](https://arxiv.org/pdf/2203.05625.pdf)        | Swin-S    | N | N | 0.434 | 0.481 | 0.641 | 0.248 | 0.437 | 0.894 | 0.143 |
@@ -106,7 +106,7 @@ Collect the Performance of 3D Object Detection Methods from Multi-View Camera Im
 
 ### Temporal
 | Method | backbone | temporal | test time aug | mAP | NDS | ATE | ASE | AOE | AVE | AAE | 
-| :----- | :-----:  |  :----:  |     :-----:   |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| :------- | :-----:  |  :----:  |     :-----:   |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | [BEVDepth](https://arxiv.org/pdf/2206.10092v1.pdf)    | -         | Y | - | 0.503 | 0.600 | 0.445 | 0.245 | 0.378 | 0.320 | 0.126 |
 | [BEVFormer](https://arxiv.org/abs/2203.17270)   | ResNet101 | Y | - | 0.445 | 0.535 | 0.631 | 0.257 | 0.405 | 0.435 | 0.143 |
 | [BEVFormer](https://arxiv.org/abs/2203.17270)   | V2-99     | Y | - | 0.481 | 0.569 | 0.582 | 0.256 | 0.375 | 0.378 | 0.126 |
