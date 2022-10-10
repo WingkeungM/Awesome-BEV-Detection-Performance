@@ -5,7 +5,10 @@ Collect the Performance of 3D Object Detection Methods from Multi-View Camera Im
 ## nuScenes Val Set
 | Method | Venue | backbone | resolution | FCOS3D Pretrain | temporal | CBGS | mAP | NDS | ATE | ASE | AOE | AVE | AAE | 
 | :-----|:-----:|:-----:|:-----:|:---:|:---:|:---:|:---:|:----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| [FCOS3D] |  | ResNet101 |  | N | N | - | 0.299 | 0.373 | 0.785 | 0.268 | 0.557 | 1.396 | 0.154 |
+| [BEVDepth]   |  | ResNet50 | 256x704 | 0.315 | 0.367 | 0.702 0.271 0.621 1.042 0.315 |
+| []
+
+| [FCOS3D] |  | ResNet50 |  | N | N | - | 0.299 | 0.373 | 0.785 | 0.268 | 0.557 | 1.396 | 0.154 |
 
 | Method | Venue | backbone | resolution | FCOS3D Pretrain | temporal | CBGS | mAP | NDS | ATE | ASE | AOE | AVE | AAE | 
 | :-----|:-----:|:-----:|:-----:|:---:|:---:|:---:|:---:|:----:|:-----:|:-----:|:-----:|:-----:|:-----:|
@@ -14,6 +17,8 @@ Collect the Performance of 3D Object Detection Methods from Multi-View Camera Im
 | [BEVDet] |  | ResNet101 |  | N | N | - | 0.330 | 0.396 | 0.702 | 0.272 | 0.534 | 0.932 | 0.251 | 
 | [PETR]   |  | ResNet101 |  | N | N | - | 0.357 | 0.421 | 0.710 | 0.270 | 0.490 | 0.885 | 0.224 | 
 | [SimMOD] |  | ResNet101 | 1600x900 | N | N | - | 0.351 | 0.435 | 0.717 | 0.267 | 0.388 | 0.849 | 0.187 |
+| [BEVDepth]| | ResNet101 | 256x704  | - | N | N | 0.320 | 0.381 | 0.682 0.272 0.562 0.997 0.284 | 
+
 
 | [FCOS3D]     |  | ResNet101 |  | Y | N | - | 0.321 | 0.393 | 0.746 | 0.265 | 0.503 | 1.351 | 0.160 |
 | [DETR3D]     |  | ResNet101 |  | Y | N | - | 0.346 | 0.425 | 0.773 | 0.268 | 0.383 | 0.842 | 0.216 | 
