@@ -2,6 +2,32 @@
 Collect the Performance of 3D Object Detection Methods from Multi-View Camera Images (BEV Perception).
 
 
-| Method | Venue | backbone | CBGS | mAP | NDS | ATE | ASE | AOE | AVE | AAE | 
-| :-----|:-----:|:-----:|:-----:|:---:|:---:|:----:|:-----:|:-----:|:-----:|:-----:|
-| [PETR](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhao_Few-Shot_3D_Point_Cloud_Semantic_Segmentation_CVPR_2021_paper.pdf) | ECCV2022 | ResNet50 | Y |  | |
+## nuScenes Val Set
+| Method | Venue | backbone | temporal | CBGS | mAP | NDS | ATE | ASE | AOE | AVE | AAE | 
+| :-----|:-----:|:-----:|:-----:|:---:|:---:|:---:|:----:|:-----:|:-----:|:-----:|:-----:|
+| [PETR](https://arxiv.org/pdf/2203.05625.pdf) | ECCV2022 | ResNet50 | Y | N | |
+
+| Method | Venue | backbone | temporal | CBGS | mAP | NDS | ATE | ASE | AOE | AVE | AAE | 
+| :-----|:-----:|:-----:|:-----:|:---:|:---:|:---:|:----:|:-----:|:-----:|:-----:|:-----:|
+| [PETR](https://arxiv.org/pdf/2203.05625.pdf) | ECCV2022 | ResNet101 | Y | N | |
+
+| Method | Venue | backbone | temporal | CBGS | mAP | NDS | ATE | ASE | AOE | AVE | AAE | 
+| :-----|:-----:|:-----:|:-----:|:---:|:---:|:---:|:----:|:-----:|:-----:|:-----:|:-----:|
+| [PETR](https://arxiv.org/pdf/2203.05625.pdf) | ECCV2022 | V2-99 | Y | N | |
+
+| Method | Venue | backbone | temporal | CBGS | mAP | NDS | ATE | ASE | AOE | AVE | AAE | 
+| :-----|:-----:|:-----:|:-----:|:---:|:---:|:---:|:----:|:-----:|:-----:|:-----:|:-----:|
+| [PETR](https://arxiv.org/pdf/2203.05625.pdf) | ECCV2022 | ResNet50 | Y | Y | |
+
+| Method | Venue | backbone | temporal | CBGS | mAP | NDS | ATE | ASE | AOE | AVE | AAE | 
+| :-----|:-----:|:-----:|:-----:|:---:|:---:|:---:|:----:|:-----:|:-----:|:-----:|:-----:|
+| [PETR](https://arxiv.org/pdf/2203.05625.pdf) | ECCV2022 | ResNet101 | Y | Y | |
+
+| Method | Venue | backbone | temporal | CBGS | mAP | NDS | ATE | ASE | AOE | AVE | AAE | 
+| :-----|:-----:|:-----:|:-----:|:---:|:---:|:---:|:----:|:-----:|:-----:|:-----:|:-----:|
+| [PETR](https://arxiv.org/pdf/2203.05625.pdf) | ECCV2022 | V2-99 | Y | Y | |
+
+## nuScenes Test Set
+| Method | Venue | backbone | temporal | CBGS | mAP | NDS | ATE | ASE | AOE | AVE | AAE | 
+| :-----|:-----:|:-----:|:-----:|:---:|:---:|:---:|:----:|:-----:|:-----:|:-----:|:-----:|
+| [PETR](https://arxiv.org/pdf/2203.05625.pdf) | ECCV2022 | ResNet50 | Y | N | |
