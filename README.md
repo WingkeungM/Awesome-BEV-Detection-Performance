@@ -58,7 +58,7 @@ Collect the Performance of 3D Object Detection Methods from Multi-View Camera Im
 | [BEVDet](https://arxiv.org/pdf/2112.11790.pdf)     | Swin-B | 1600x640 | N | - | 0.393 | 0.472 | 0.608 | 0.259 | 0.366 | 0.822 | 0.191 |
 | [DETR3D](https://proceedings.mlr.press/v164/wang22b.html) | V2-99 | 1600x900 | N | - | 0.445 | 0.509 | 0.687 | 0.261 | 0.271 | 0.727 | 0.191 |
 | [PolarDETR](https://arxiv.org/pdf/2206.10965.pdf)  | V2-99  | 1600x900 | N | - | 0.462 | 0.532 | 0.628 | 0.262 | 0.263 | 0.658 | 0.180 |
-| [PolarFormer](https://arxiv.org/pdf/2206.15398.pdf)| V2-99  | 1600x900 | Y | N | - | 0.500 | 0.562 | 0.583 | 0.262 | 0.247 | 0.601 | 0.193 |
+| [PolarFormer](https://arxiv.org/pdf/2206.15398.pdf)| V2-99  | 1600x900 | N | - | 0.500 | 0.562 | 0.583 | 0.262 | 0.247 | 0.601 | 0.193 |
 
 
 ### Other Backbone + temporal
