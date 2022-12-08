@@ -54,9 +54,9 @@ Collect the Performance of 3D Object Detection Methods from Multi-View Camera Im
 | Method | backbone | resolution | FCOS3D Pretrain | temporal | CBGS | mAP | NDS | ATE | ASE | AOE | AVE | AAE | 
 | :----- | :-----:  |  :-----:   |    :---:        |   :---:  | :--: |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | [PolarDETR-T](https://arxiv.org/pdf/2206.10965.pdf) | ResNet101 | 1600x900 | - | Y | - | 0.383 | 0.488 | 0.707 | 0.269 | 0.344 | 0.518 | 0.196 |
+| [3DPointPE](https://arxiv.org/pdf/2211.14710.pdf) | ResNet101 | 512x1408 | N | Y | N | 0.409 | 0.526 | 0.632 | 0.281 | 0.345 | 0.342 | 0.184 |
 | [BEVDepth](https://arxiv.org/pdf/2206.10092v1.pdf)   | ResNet101 | 512x1408 | - | Y | - | 0.412 | 0.535 | 0.565 | 0.266 | 0.358 | 0.331 | 0.190 |
 | [BEVFormer-S](https://arxiv.org/abs/2203.17270)| ResNet101 | -        | - | Y | - | 0.416 | 0.517 | 0.673 | 0.274 | 0.372 | 0.394 | 0.198 |
-| [3DPointPE](https://arxiv.org/pdf/2211.14710.pdf) | ResNet101 | 512x1408 | N | Y | N | 0.409 | 0.526 | 0.632 | 0.281 | 0.345 | 0.342 | 0.184 |
 
 
 ### Other Backbone
@@ -65,10 +65,10 @@ Collect the Performance of 3D Object Detection Methods from Multi-View Camera Im
 | [BEVDet](https://arxiv.org/pdf/2112.11790.pdf)     | Swin-T | 704x256  | N | - | 0.312 | 0.392 | 0.691 | 0.272 | 0.523 | 0.909 | 0.247 |
 | [PETR](https://arxiv.org/pdf/2203.05625.pdf)       | Swin-T | 512x1408 | N | - | 0.361 | 0.431 | 0.732 | 0.273 | 0.497 | 0.808 | 0.185 |
 | [BEVDet](https://arxiv.org/pdf/2112.11790.pdf)     | Swin-B | 1600x640 | N | - | 0.393 | 0.472 | 0.608 | 0.259 | 0.366 | 0.822 | 0.191 |
+| [3DPointPE](https://arxiv.org/pdf/2211.14710.pdf) | V2-99 | 320x800 | N | N | 0.394 | 0.434 | 0.706 | 0.273 | 0.522 | 0.848 | 0.240 |
 | [DETR3D](https://proceedings.mlr.press/v164/wang22b.html) | V2-99 | 1600x900 | N | - | 0.445 | 0.509 | 0.687 | 0.261 | 0.271 | 0.727 | 0.191 |
 | [PolarDETR](https://arxiv.org/pdf/2206.10965.pdf)  | V2-99  | 1600x900 | N | - | 0.462 | 0.532 | 0.628 | 0.262 | 0.263 | 0.658 | 0.180 |
 | [PolarFormer](https://arxiv.org/pdf/2206.15398.pdf)| V2-99  | 1600x900 | N | - | 0.500 | 0.562 | 0.583 | 0.262 | 0.247 | 0.601 | 0.193 |
-| [3DPointPE](https://arxiv.org/pdf/2211.14710.pdf) | V2-99 | 320x800 | N | N | N | 0.394 | 0.434 | 0.706 | 0.273 | 0.522 | 0.848 | 0.240 |
 
 ### Other Backbone + temporal
 | Method | Venue | backbone | temporal | CBGS | mAP | NDS | ATE | ASE | AOE | AVE | AAE | 
