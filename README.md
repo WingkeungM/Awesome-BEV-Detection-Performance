@@ -12,7 +12,8 @@ Collect the Performance of 3D Object Detection Methods from Multi-View Camera Im
 | [BEVDet](https://arxiv.org/pdf/2112.11790.pdf)     | ResNet50 | 1056x384 | N | N | - | 0.318 | 0.389 | 0.718 | 0.272 | 0.553 | 0.897 | 0.258 |
 | [PolarDETR](https://arxiv.org/pdf/2206.10965.pdf)  | ResNet50 | 1600x900 | - | N | - | 0.338 | 0.409 | 0.768 | 0.284 | 0.443 | 0.883 | 0.221 |
 | [PETR](https://arxiv.org/pdf/2203.05625.pdf)       | ResNet50 | 1408x512 | N | N | Y | 0.339 | 0.403 | 0.748 | 0.273 | 0.539 | 0.907 | 0.203 |
-
+| SANet(BEVDet)() | ResNet50 | 256x704 | N | N | N | 0.292 | 0.320 | 0.746 | 0.286 | 0.797 | 1.167 | 0.403 |
+| SANet(BEVDepth)() | ResNet50 | 256x704 | N | N | N | 0.310 | 0.366 | 0.705 | 0.278 | 0.608 | 1.070 | 0.300 |
 ### ResNet50 + temporal
 | Method | backbone | resolution | FCOS3D Pretrain | temporal | CBGS | mAP | NDS | ATE | ASE | AOE | AVE | AAE | 
 | :------- | :-----:  |  :-----:   |    :---:        |   :---:  | :--: |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
