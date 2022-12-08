@@ -7,13 +7,17 @@ Collect the Performance of 3D Object Detection Methods from Multi-View Camera Im
 | Method | backbone | resolution | FCOS3D Pretrain | temporal | CBGS | mAP | NDS | ATE | ASE | AOE | AVE | AAE | 
 | :----- | :-----:  |  :-----:   |    :---:        |   :---:  | :--: |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | [BEVDet](https://arxiv.org/pdf/2112.11790.pdf)     | ResNet50 | 256x704  | N | N | - | 0.298 | 0.379 | 0.725 | 0.279 | 0.589 | 0.860 | 0.245 |
+| [SANet(BEVDet)](https://arxiv.org/pdf/2212.01231.pdf) | ResNet50 | 256x704 | N | N | N | 0.292 | 0.320 | 0.746 | 0.286 | 0.797 | 1.167 | 0.403 |
+| [SANet(BEVDepth)](https://arxiv.org/pdf/2212.01231.pdf) | ResNet50 | 256x704 | N | N | N | 0.310 | 0.366 | 0.705 | 0.278 | 0.608 | 1.070 | 0.300 |
 | [PETR](https://arxiv.org/pdf/2203.05625.pdf)       | ResNet50 | 1056x384 | N | N | Y | 0.313 | 0.381 | 0.768 | 0.278 | 0.564 | 0.923 | 0.225 |
 | [BEVDepth](https://arxiv.org/pdf/2206.10092v1.pdf)   | ResNet50 | 256x704  | - | N | - | 0.315 | 0.367 | 0.702 | 0.271 | 0.621 | 1.042 | 0.315 |
 | [BEVDet](https://arxiv.org/pdf/2112.11790.pdf)     | ResNet50 | 1056x384 | N | N | - | 0.318 | 0.389 | 0.718 | 0.272 | 0.553 | 0.897 | 0.258 |
+| [MatrixVT](https://arxiv.org/pdf/2211.10593.pdf) | ResNet50 | 256x704 | - | - | - | 0.336 | 0.415 | 0.653 | 0.271 | 0.473 | 0.903 | 0.231 |
 | [PolarDETR](https://arxiv.org/pdf/2206.10965.pdf)  | ResNet50 | 1600x900 | - | N | - | 0.338 | 0.409 | 0.768 | 0.284 | 0.443 | 0.883 | 0.221 |
 | [PETR](https://arxiv.org/pdf/2203.05625.pdf)       | ResNet50 | 1408x512 | N | N | Y | 0.339 | 0.403 | 0.748 | 0.273 | 0.539 | 0.907 | 0.203 |
-| SANet(BEVDet)() | ResNet50 | 256x704 | N | N | N | 0.292 | 0.320 | 0.746 | 0.286 | 0.797 | 1.167 | 0.403 |
-| SANet(BEVDepth)() | ResNet50 | 256x704 | N | N | N | 0.310 | 0.366 | 0.705 | 0.278 | 0.608 | 1.070 | 0.300 |
+| [AeDet](https://arxiv.org/pdf/2211.12501.pdf) | ResNet50 | 256x704 | - | - | - | 0.387 | 0.501 | 0.598 | 0.276 | 0.461 | 0.392 | 0.196 |
+
+
 ### ResNet50 + temporal
 | Method | backbone | resolution | FCOS3D Pretrain | temporal | CBGS | mAP | NDS | ATE | ASE | AOE | AVE | AAE | 
 | :------- | :-----:  |  :-----:   |    :---:        |   :---:  | :--: |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -33,6 +37,7 @@ Collect the Performance of 3D Object Detection Methods from Multi-View Camera Im
 | [DETR3D](https://proceedings.mlr.press/v164/wang22b.html)  | ResNet101 | 1600x900 | Y | N | Y | 0.349 | 0.434 | 0.716 | 0.268 | 0.379 | 0.842 | 0.200 |
 | [SpatialDETR](https://markus-enzweiler.de/downloads/publications/ECCV2022-spatial_detr.pdf)|ResNet101|-        | Y | N | N | 0.351 | 0.425 | 0.772 | 0.274 | 0.395 | 0.847 | 0.217 |
 | [SimMOD](https://arxiv.org/pdf/2208.10035.pdf)  | ResNet101 | 1600x900 | N | N | - | 0.351 | 0.435 | 0.717 | 0.267 | 0.388 | 0.849 | 0.187 |
+| [SANet(BEVDepth)](https://arxiv.org/pdf/2212.01231.pdf) | ResNet101 | 256x704 | N | N | N | 0.351 | 0.482 | 0.618 | 0.271 | 0.434 | 0.426 | 0.192 |
 | [PETR](https://arxiv.org/pdf/2203.05625.pdf)    | ResNet101 | 1408x512 | N | N | Y | 0.357 | 0.421 | 0.710 | 0.270 | 0.490 | 0.885 | 0.224 |
 | [PolarDETR](https://arxiv.org/pdf/2206.10965.pdf) | ResNet101 | 1600x900 | - | N | - | 0.365 | 0.444 | 0.742 | 0.269 | 0.350 | 0.829 | 0.197 |
 | [PETR](https://arxiv.org/pdf/2203.05625.pdf)    | ResNet101 | 1408x512 | Y | N | Y | 0.366 | 0.441 | 0.717 | 0.267 | 0.412 | 0.834 | 0.190 |
@@ -40,15 +45,18 @@ Collect the Performance of 3D Object Detection Methods from Multi-View Camera Im
 | [PGD](https://arxiv.org/pdf/2107.14160.pdf)     | ResNet101 | 1600x900 | N | N | N | 0.369 | 0.428 | 0.683 | 0.260 | 0.439 | 1.268 | 0.185 |
 | [PETR](https://arxiv.org/pdf/2203.05625.pdf)    | ResNet101 | 1600x900 | Y | N | Y | 0.370 | 0.442 | 0.711 | 0.267 | 0.383 | 0.865 | 0.201 |
 | [BEVDepth](https://arxiv.org/pdf/2206.10092v1.pdf)| ResNet101 | 512x1408 | - | N | - | 0.376 | 0.408 | 0.659 | 0.267 | 0.543 | 1.059 | 0.335 |
+| [3DPointPE](https://arxiv.org/pdf/2211.14710.pdf) | ResNet101 | 512x1408 | N | N | Y | 0.381 | 0.448 | 0.681 | 0.272 | 0.411 | 0.860 | 0.206 |
 | [PolarFormer](https://arxiv.org/pdf/2206.15398.pdf)| ResNet101 | 1600x900 | Y | N | - | 0.396 | 0.458 | 0.700 | 0.269 | 0.375 | 0.839 | 0.245 |
-
+| [MatrixVT](https://arxiv.org/pdf/2211.10593.pdf) | ResNet101 | 512×1408 | - | - | - | 0.396 | 0.467 | 0.577 | 0.261 | 0.397 | 0.870 | 0.207 |
+| [AeDet](https://arxiv.org/pdf/2211.12501.pdf) | ResNet101 | 512×1408 | - | - | - | 0.449 | 0.561 | 0.501 | 0.262 | 0.347 | 0.330 | 0.194 |
 
 ### ResNet101 + temporal
 | Method | backbone | resolution | FCOS3D Pretrain | temporal | CBGS | mAP | NDS | ATE | ASE | AOE | AVE | AAE | 
 | :----- | :-----:  |  :-----:   |    :---:        |   :---:  | :--: |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | [PolarDETR-T](https://arxiv.org/pdf/2206.10965.pdf) | ResNet101 | 1600x900 | - | Y | - | 0.383 | 0.488 | 0.707 | 0.269 | 0.344 | 0.518 | 0.196 |
 | [BEVDepth](https://arxiv.org/pdf/2206.10092v1.pdf)   | ResNet101 | 512x1408 | - | Y | - | 0.412 | 0.535 | 0.565 | 0.266 | 0.358 | 0.331 | 0.190 |
-| [BEVFormer-S](https://arxiv.org/abs/2203.17270)|ResNet101  | -        | - | Y | - | 0.416 | 0.517 | 0.673 | 0.274 | 0.372 | 0.394 | 0.198 |
+| [BEVFormer-S](https://arxiv.org/abs/2203.17270)| ResNet101 | -        | - | Y | - | 0.416 | 0.517 | 0.673 | 0.274 | 0.372 | 0.394 | 0.198 |
+| [3DPointPE](https://arxiv.org/pdf/2211.14710.pdf) | ResNet101 | 512x1408 | N | Y | N | 0.409 | 0.526 | 0.632 | 0.281 | 0.345 | 0.342 | 0.184 |
 
 
 ### Other Backbone
@@ -60,14 +68,16 @@ Collect the Performance of 3D Object Detection Methods from Multi-View Camera Im
 | [DETR3D](https://proceedings.mlr.press/v164/wang22b.html) | V2-99 | 1600x900 | N | - | 0.445 | 0.509 | 0.687 | 0.261 | 0.271 | 0.727 | 0.191 |
 | [PolarDETR](https://arxiv.org/pdf/2206.10965.pdf)  | V2-99  | 1600x900 | N | - | 0.462 | 0.532 | 0.628 | 0.262 | 0.263 | 0.658 | 0.180 |
 | [PolarFormer](https://arxiv.org/pdf/2206.15398.pdf)| V2-99  | 1600x900 | N | - | 0.500 | 0.562 | 0.583 | 0.262 | 0.247 | 0.601 | 0.193 |
-
+| [3DPointPE](https://arxiv.org/pdf/2211.14710.pdf) | V2-99 | 320x800 | N | N | N | 0.394 | 0.434 | 0.706 | 0.273 | 0.522 | 0.848 | 0.240 |
 
 ### Other Backbone + temporal
 | Method | Venue | backbone | temporal | CBGS | mAP | NDS | ATE | ASE | AOE | AVE | AAE | 
 | :------- |:-----:| :-----:  |  :-----: |:----:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | [BEVDet4D](https://arxiv.org/abs/2203.17054)   | Swin-T | 704x256  | Y | - | 0.338 | 0.476 | 0.672 | 0.274 | 0.460 | 0.337 | 0.185 |
 | [BEVDet4D](https://arxiv.org/abs/2203.17054)   | Swin-B | 1600x640 | Y | - | 0.421 | 0.545 | 0.579 | 0.258 | 0.329 | 0.301 | 0.191 |
-
+| [3DPointPE](https://arxiv.org/pdf/2211.14710.pdf) | V2-99 | 320x800 | Y | N | 0.431 | 0.517 | 0.681 | 0.271 | 0.408 | 0.421 | 0.203 |
+| [3DPointPE](https://arxiv.org/pdf/2211.14710.pdf) | V2-99 | 320x800 | Y | Y | 0.456 | 0.626 | 0.265 | 0.340 | 0.363 | 0.177 | 0.551 |
+| [MatrixVT](https://arxiv.org/pdf/2211.10593.pdf) | V2-99 | 512x1408 | Y | - | 0.466 | 0.562 | 0.535 | 0.260 | 0.380 | 0.342 | 0.198 |
 
 
 
