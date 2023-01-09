@@ -62,7 +62,7 @@ Collect the Performance of 3D Object Detection Methods from Multi-View Camera Im
 
 
 ### Other Backbone
-| Method | Venue | backbone | temporal | CBGS | mAP | NDS | ATE | ASE | AOE | AVE | AAE | 
+| Method | backbone | resolution | temporal | CBGS | mAP | NDS | ATE | ASE | AOE | AVE | AAE | 
 | :------- |:-----:| :-----:  |  :-----: |:----:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | [BEVDet](https://arxiv.org/pdf/2112.11790.pdf)     | Swin-T | 704x256  | N | - | 0.312 | 0.392 | 0.691 | 0.272 | 0.523 | 0.909 | 0.247 |
 | [PETR](https://arxiv.org/pdf/2203.05625.pdf)       | Swin-T | 512x1408 | N | - | 0.361 | 0.431 | 0.732 | 0.273 | 0.497 | 0.808 | 0.185 |
@@ -73,7 +73,7 @@ Collect the Performance of 3D Object Detection Methods from Multi-View Camera Im
 | [PolarFormer](https://arxiv.org/pdf/2206.15398.pdf)| V2-99  | 1600x900 | N | - | 0.500 | 0.562 | 0.583 | 0.262 | 0.247 | 0.601 | 0.193 |
 
 ### Other Backbone + temporal
-| Method | Venue | backbone | temporal | CBGS | mAP | NDS | ATE | ASE | AOE | AVE | AAE | 
+| Method | backbone | resolution | temporal | CBGS | mAP | NDS | ATE | ASE | AOE | AVE | AAE | 
 | :------- |:-----:| :-----:  |  :-----: |:----:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | [BEVDet4D](https://arxiv.org/abs/2203.17054)   | Swin-T | 704x256  | Y | - | 0.338 | 0.476 | 0.672 | 0.274 | 0.460 | 0.337 | 0.185 |
 | [BEVDet4D](https://arxiv.org/abs/2203.17054)   | Swin-B | 1600x640 | Y | - | 0.421 | 0.545 | 0.579 | 0.258 | 0.329 | 0.301 | 0.191 |
